@@ -10,8 +10,8 @@ The Stage Gate Model 2020-1 of World Robot Summit(Competition) Tunnel Disaster R
 
   1. Download WRS202020SG_20200109_162403.zip  
   2. Unzip WRS202020SG_20200109_162403.zip under ~/choreonoid/ext (After extracting, you can see ~/choreonoid/ext/WRS2020SG)  
-  3. Re-configuring CMakeLists.txt under ~/choreonoid/build.  
-      cd ~/choreonoid/build && cmake .  
+  3. Re-configuring CMakeLists.txt under ~/choreonoid/build. Find the switch for WRS2020SG and check it which is already on:  
+      cd ~/choreonoid/build && ccmake .  
   4. Rebuild:  
       cd ~/choreonoid/build && make  
 
@@ -19,5 +19,6 @@ Please find field images and run scripts in the [wiki page](https://github.com/W
 
 ## The location of the simulation log files  
 After running a simulation, you can find a simulation log file under ~/choreonoid/ext/WRS2020SG/project.  
+Please see also [Choreonoid documentation](https://choreonoid.org/en/manuals/1.7/simulation/execution-and-playback.html).  
 
 Edited: 9th Jan. 2020
