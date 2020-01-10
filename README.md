@@ -1,5 +1,6 @@
-# WRS-TDRRC-2020SG1
-The Stage Gate Model 2020-1 of World Robot Summit(Competition) Tunnel Disaster Response and Recovery Challenge
+# WRS-TDRRC-2020SG1 <PRELIMINARY VERSION>
+The Stage Gate Model 2020-1 of World Robot Summit(Competition) Tunnel Disaster Response and Recovery Challenge.  
+CAUTION: THIS IS A PRELIMINARY VERSION. THE FINAL VERSION WILL COME SOON.
 
 ## Requirements  
 
