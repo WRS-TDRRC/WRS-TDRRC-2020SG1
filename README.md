@@ -22,7 +22,7 @@ If you have to install choreonoid now, please follow below commands:
 Or you are already using choreonoid version 1.7, please follow below commands:  
 (When your choreonoid is under ~/choreonoid)  
 
-    $ cd choreonoid/ext  
+    $ cd ~/choreonoid/ext  
     $ wget https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1/blob/master/WRS2020SG.zip  
     $ unzip WRS2020SG.zip  
     $ cd ~/choreonoid/build  
