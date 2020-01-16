@@ -7,14 +7,27 @@ CAUTION: THIS IS A PRELIMINARY VERSION. THE FINAL VERSION WILL COME SOON.
   1. [Choreonoid version 1.7](https://choreonoid.org/en/manuals/1.7/index.html)  
   2. [AGX for Choreonoid](https://choreonoid.org/en/manuals/latest/agxdynamics/index.html), [Downloading AGX](https://www.algoryx.se/download/?id=1887)  
 
-## How to use this repository
+## How to install choreonoid and this model package.  
+If you have to install choreonoid now, please follow below commands:  
 
-  1. Download WRS202020SG_20200109_162403.zip  
-  2. Unzip WRS202020SG_20200109_162403.zip under ~/choreonoid/ext (After extracting, you can see ~/choreonoid/ext/WRS2020SG)  
-  3. Re-configuring CMakeLists.txt under ~/choreonoid/build. Find the switch for WRS2020SG and check it which is already on:  
-      cd ~/choreonoid/build && ccmake .  
-  4. Rebuild:  
-      cd ~/choreonoid/build && make  
+    $ cd ~  
+    $ git clone -b "release-1.7" https://github.com/s-nakaoka/choreonoid.git  
+    $ cd choreonoid/ext  
+    $ wget https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1/blob/master/WRS2020SG.zip  
+    $ unzip WRS2020SG.zip  
+    $ cd ~/choreonoid && mkdir build && cd build  
+    $ cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_WRS2018=ON  
+    $ make -j8  
+  
+Or you are already using choreonoid version 1.7, please follow below commands:  
+(When your choreonoid is under ~/choreonoid)  
+
+    $ cd choreonoid/ext  
+    $ wget https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1/blob/master/WRS2020SG.zip  
+    $ unzip WRS2020SG.zip  
+    $ cd ~/choreonoid/build  
+    $ cmake . -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_WRS2018=ON  
+    $ make -j8  
 
 Please find field images and run scripts in the [wiki page](https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1/wiki).  
 
