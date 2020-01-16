@@ -7,7 +7,7 @@ CAUTION: THIS IS A PRELIMINARY VERSION. THE FINAL VERSION WILL COME SOON.
   1. [Choreonoid version 1.7](https://choreonoid.org/en/manuals/1.7/index.html)  
   2. [AGX for Choreonoid](https://choreonoid.org/en/manuals/latest/agxdynamics/index.html), [Downloading AGX](https://www.algoryx.se/download/?id=1887)  
 
-## How to install choreonoid and this model package.  
+## How to use this repository.  
 If you have to install choreonoid now, please follow below commands:  
 
     $ cd ~  
@@ -35,4 +35,4 @@ Please find field images and run scripts in the [wiki page](https://github.com/W
 After running a simulation, you can find a simulation log file under ~/choreonoid/ext/WRS2020SG/project.  
 Please see also [Choreonoid documentation](https://choreonoid.org/en/manuals/1.7/simulation/execution-and-playback.html).  
 
-Edited: 9th Jan. 2020
+Edited: 16th Jan. 2020
