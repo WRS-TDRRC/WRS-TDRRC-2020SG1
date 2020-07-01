@@ -2,6 +2,24 @@
 The Stage Gate Model 2020-1 of World Robot Summit(Competition) Tunnel Disaster Response and Recovery Challenge.  
 THIS IS THE RELEASE VERSION.  
 
+## SOFTWARE IMPORTANT INFORMATION for WRC 2020  
+### ABOUT Choreonoid  
+Version 1.8 with a tag specified by the development version management.  
+EX.) git clone -b tag https://github.com/s-nakaoka/choreonoid.git  
+  
+### ABOUT Robotic middle-ware  
+ * Recommend using ROS1 Melodic  
+We have got information that the choreonoid developer will support the connection between choreonoid and ROS1.  
+  
+ * Not recommend using OpenRTM  
+We got information that the choreonoid developer do not have any plan to support the connection between choreonoid and RTM.  
+There is information that the RTM version 1.1.2 and 1.2.0 were used with older choreonoid. But there is no information on whether the choreonoid developer will support.  
+  
+### ABOUT AGX Dynamics  
+Considering version.  
+Currently, Version 2.21.3 used in WRS2018 is the newest version confirmed by the choreonoid developer.  
+  
+
 ## Requirements  
 
   1. [Choreonoid (tag=wrs2019)](https://choreonoid.org/en/manuals/latest/index.html)  
