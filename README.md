@@ -12,11 +12,11 @@ EX.) git clone -b tag https://github.com/choreonoid/choreonoid.git
 We have got information that the choreonoid developer will support the connection between choreonoid and ROS1.  
   
  * Not recommend using OpenRTM  
-We got information that the choreonoid developer do not have any plan to support the connection between choreonoid and RTM.  
+We got information that the choreonoid developer does not have any plan to support the connection between choreonoid and RTM.  
 There is information that the RTM version 1.1.2 and 1.2.0 were used with older choreonoid. But there is no information on whether the choreonoid developer will support.  
   
 ### ABOUT AGX Dynamics  
-Considering version.  
+We are consideringa typical virsion of AGX.  
 Currently, Version 2.21.3 used in WRS2018 is the newest version confirmed by the choreonoid developer.  
   
 
