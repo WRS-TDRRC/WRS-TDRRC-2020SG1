@@ -5,7 +5,7 @@ THIS IS THE RELEASE VERSION.
 ## SOFTWARE IMPORTANT INFORMATION for WRC 2020  
 ### ABOUT Choreonoid  
 Version 1.8 with a tag specified by the development version management.  
-EX.) git clone -b tag https://github.com/s-nakaoka/choreonoid.git  
+EX.) git clone -b tag https://github.com/choreonoid/choreonoid.git  
   
 ### ABOUT Robotic middle-ware  
  * Recommend using ROS1 Melodic  
@@ -29,7 +29,7 @@ Currently, Version 2.21.3 used in WRS2018 is the newest version confirmed by the
 If you have to install choreonoid now, please follow below commands:  
 
     $ cd ~  
-    $ git clone -b "wrs2019" https://github.com/s-nakaoka/choreonoid.git  
+    $ git clone -b "wrs2019" https://github.com/choreonoid/choreonoid.git  
     $ cd choreonoid/ext  
     $ wget https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1/blob/master/WRS2020SG.zip  
     $ unzip WRS2020SG.zip  
