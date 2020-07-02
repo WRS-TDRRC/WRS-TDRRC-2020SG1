@@ -17,13 +17,13 @@ There is information that the RTM version 1.1.2 and 1.2.0 were used with older c
   
 ### ABOUT AGX Dynamics  
 We are consideringa typical virsion of AGX.  
-Currently, Version 2.21.3 used in WRS2018 is the newest version confirmed by the choreonoid developer.  
+Currently, Version 2.23.0.4 which was nearest version from WRS2018 and verified by the committee for Ubuntu 18.04.  
   
 
 ## Requirements  
 
   1. [Choreonoid (tag=wrs2019)](https://choreonoid.org/en/manuals/latest/index.html)  
-  2. [AGX for Choreonoid](https://choreonoid.org/en/manuals/latest/agxdynamics/index.html), [Downloading AGX](https://www.algoryx.se/download/?id=1887), The AGX highest version is 2.21.3 which was used in WRS2018. There are capability that higher version which can be used will be found.  
+  2. [AGX for Choreonoid](https://choreonoid.org/en/manuals/latest/agxdynamics/index.html), [Downloading AGX](https://www.algoryx.se/download/?id=1887), The AGX highest version is 2.23.0.4 which was nearest version from WRS2018 and verified by the committee for Ubuntu 18.04. There are capability that higher version which can be used will be found.  
 
 ## How to use this repository.  
 If you have to install choreonoid now, please follow below commands:  
