@@ -1,0 +1,52 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+name: Dynamite800mm
+
+TUBE_APPEARANCE1: &TUBE_APPEARANCE1
+  material:
+    diffuseColor: [ 0.2, 0.2, 0.2 ]
+  texture:
+    url: "resource/Asphalt_New.jpg" 
+    repeatS: true
+    repeatT: true
+
+TUBE_APPEARANCE: &TUBE_APPEARANCE
+  material:
+    diffuseColor: [ 0.25, 0.15, 0.15 ]
+
+links:
+  -
+    name: BODY
+    jointType: free
+    mass: 1.0
+    inertia: [
+      11892183040.000000,          4.552188,           7.266830,
+                4.552188, 1202377728.000000,           0.000000,
+                7.266830,          0.000000, 11892183040.000000 ]
+    material: Wood
+    elements:
+      -
+        type: Collision
+        elements:
+          Shape:
+            geometry: { type: Cylinder, height: 0.300, radius: 0.040 }
+      -
+        type: Visual
+        elements:
+          Shape:
+            geometry: { type: Cylinder, height: 0.300, radius: 0.040 }
+            appearance: { material: { diffuseColor: [ 0.85, 0.15, 0.15 ] } }
+      -
+        type: Collision
+        elements:
+          Shape:
+            translation: [ 0, 0.175, 0 ]
+            geometry: { type: Cylinder, height: 0.050, radius: 0.0025 }
+      -
+        type: Visual
+        elements:
+          Shape:
+            translation: [ 0, 0.175, 0 ]
+            geometry: { type: Cylinder, height: 0.050, radius: 0.0025 }
+            appearance: { material: { diffuseColor: [ 0, 0, 0 ] } }
+

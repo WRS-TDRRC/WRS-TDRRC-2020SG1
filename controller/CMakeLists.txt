@@ -1,0 +1,14 @@
+add_cnoid_simple_controller(SpreaderController2020 SpreaderController2020.cpp)
+add_cnoid_simple_controller(CarT3Controller2020 CarT3Controller2020.cpp)
+target_link_libraries(CarT3Controller2020 SpreaderController2020)
+
+if(BUILD_SCENE_EFFECTS_PLUGIN)
+  add_cnoid_simple_controller(FireController2020 FireController2020.cpp)
+  target_link_libraries(FireController2020 CnoidSceneEffectsPlugin)
+  add_cnoid_simple_controller(HoseNozzleController2020 HoseNozzleController2020.cpp)
+  target_link_libraries(HoseNozzleController2020 FireController2020)
+endif()
+
+add_cnoid_simple_controller(RockDrillController2020 RockDrillController2020.cpp)
+add_cnoid_simple_controller(BoaringTargetController2020 BoaringTargetController2020.cpp)
+target_link_libraries(BoaringTargetController2020 RockDrillController2020)

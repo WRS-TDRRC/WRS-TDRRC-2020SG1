@@ -1,0 +1,25 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+angleUnit: degree
+name: Plate1mX1m
+
+links:
+  -
+    name: Plate1mX1m
+    jointType: fixed
+    elements:
+      -
+        type: Transform
+        translation: [ 0, 0, 0.5 ]
+        elements:
+          -
+            type: Shape
+            translation: [ 0, 0, 0 ]
+            rotation: [ 1, 1, 1, 0 ]
+            geometry:
+              type: Box
+              size: [ 0.01, 1, 1 ]
+            appearance:
+              material:
+                diffuseColor: [ 0.5, 0.5, 0.5 ]
+

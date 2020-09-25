@@ -33,8 +33,7 @@ If you have to install choreonoid now, please follow below commands:
     $ ~/choreonoid/misc/script/install-requisites-ubuntu-18.04.sh  
     $ sudo apt-get install qt5-default libqt5x11extras5-dev qt5-style-plugins  
     $ cd ~/choreonoid/ext  
-    $ wget https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1/blob/master/WRS2020SG.zip  
-    $ unzip WRS2020SG.zip  
+    $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1 WRS2020SG
     $ cd ~/choreonoid && mkdir build && cd build  
     $ cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_COMPETITION_PLUGIN=ON -DENABLE_CORBA=ON -DBUILD_CORBA_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_WRS2018=ON  
     $ make -j8  
@@ -44,8 +43,7 @@ Or you are already using choreonoid, please follow below commands:
 
     $ cd ~/choreonoid && git checkout "wrs2019"
     $ cd ~/choreonoid/ext  
-    $ wget https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1/blob/master/WRS2020SG.zip  
-    $ unzip WRS2020SG.zip  
+    $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1 WRS2020SG
     $ cd ~/choreonoid/build  
     $ cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_COMPETITION_PLUGIN=ON -DENABLE_CORBA=ON -DBUILD_CORBA_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_WRS2018=ON  
     $ make -j8  

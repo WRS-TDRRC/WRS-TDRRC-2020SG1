@@ -1,0 +1,18 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+angleUnit: degree
+name: JetFan
+
+links:
+  -
+    name: Base
+    translation: [ 0.0, 0.0, 0.0 ]
+    jointType: fixed
+    elements:
+      -
+        type: Visual
+        resource: {  uri: "resource/JetFan2019/JetFan2019.dae" }
+      -
+        type: Collision
+        resource: {  uri: "resource/JetFan2019/JetFan2019-Outer-Collision.dae" }
+
