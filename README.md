@@ -47,7 +47,7 @@ If you have to install choreonoid now, please follow below commands:
     $ catkin build   
 
 Before run, you have to add "source /opt/Algoryx/AgX-VERSION-NUMBER/setup_env.bash" at the end of ~/.bashrc , and reopen the terminal.  
-Please find field images and run scripts in the [wiki page](https://github.com/WRS-TDRRC/WRS-TDRRC-2019Trial/wiki).  
+Please find field images and run scripts in the [wiki page](https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1/wiki).  
 
 * TERMINAL 1:  
     $ roscore  
@@ -69,7 +69,7 @@ Please find field images and run scripts in the [wiki page](https://github.com/W
 If you have to install choreonoid now, please follow below commands:  
 
     $ cd ~  
-    $ git clone -b "wrs2019" https://github.com/choreonoid/choreonoid.git  
+    $ git clone https://github.com/choreonoid/choreonoid.git  
     $ ~/choreonoid/misc/script/install-requisites-ubuntu-18.04.sh  
     $ sudo apt-get install qt5-default libqt5x11extras5-dev qt5-style-plugins  
     $ cd ~/choreonoid/ext  
@@ -81,7 +81,6 @@ If you have to install choreonoid now, please follow below commands:
 Or you are already using choreonoid, please follow below commands:  
 (When your choreonoid is under ~/choreonoid)  
 
-    $ cd ~/choreonoid && git checkout "wrs2019"
     $ cd ~/choreonoid/ext  
     $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1 WRS2020SG
     $ cd ~/choreonoid/build  
