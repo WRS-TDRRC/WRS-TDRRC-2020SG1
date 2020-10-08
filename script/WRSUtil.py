@@ -27,7 +27,7 @@ def loadProject(
     view, task, simulatorProjects, robotProject,
     enableMulticopterSimulation = False, enableVisionSimulation = False, targetVisionSensors = "", remoteType = ""):
 
-    projectdir = os.path.join(shareDirectory, "WRS2020SG", "project")
+    projectdir = os.path.join(shareDirectory, "WRS2019", "project")
     #directory = os.path.dirname(os.path.realpath(__file__))
     
     itv = ItemTreeView.instance
