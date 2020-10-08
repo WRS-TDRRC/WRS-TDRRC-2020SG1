@@ -33,7 +33,7 @@ If you have to install choreonoid now, please follow below commands:
     $ cd ~  
     $ mkdir -p catkin_ws/src  
     $ cd catkin_ws  
-    $ catkin_init  
+    $ catkin init  
     $ cd src  
     $ git clone https://github.com/choreonoid/choreonoid.git  
     $ git clone https://github.com/choreonoid/choreonoid_ros.git  
@@ -41,8 +41,7 @@ If you have to install choreonoid now, please follow below commands:
     $ git clone https://github.com/choreonoid/choreonoid_joy.git  
     $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1 choreonoid/ext/WRS2020SG  
     $ choreonoid/misc/script/install-requisites-ubuntu-18.04.sh  
-    $ cd ..  
-    $ cd ~/choreonoid && mkdir build && cd build  
+    $ cd ..    
     $ catkin config --cmake-args -DBUILD_CHOREONOID_EXECUTABLE=OFF -DCMAKE_BUILD_TYPE=Release -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_COMPETITION_PLUGIN=ON -DENABLE_CORBA=ON -DBUILD_CORBA_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_WRS2018=ON  
     $ catkin build   
 
