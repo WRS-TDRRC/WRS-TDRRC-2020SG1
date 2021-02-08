@@ -36,6 +36,7 @@ If you have to install choreonoid now, please follow below commands:
     $ catkin init  
     $ cd src  
     $ git clone https://github.com/choreonoid/choreonoid.git  
+    $ cd choreonoid; git checkout f7449be9305514eb8d5f01b431751b93e0e29e78; git checkout -b WRS2020-Feb8; cd -  
     $ git clone https://github.com/choreonoid/choreonoid_ros.git  
     $ git clone https://github.com/choreonoid/choreonoid_ros_samples.git  
     $ git clone https://github.com/choreonoid/choreonoid_joy.git  
