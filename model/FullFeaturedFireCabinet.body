@@ -62,7 +62,7 @@ links:
     type: SubBody
     uri: "HoseConnector.body"
     parent: HOSE_ROOT
-    rotation: [ [ 0, 1, 0, 90 ], [ 1, 0, 0, 90 ] ]
+    rotation: [ 0, 1, 0, 0 ]
     translation: [ 0, -0.23, -0.125 ]
     jointType: free
 
@@ -82,7 +82,7 @@ links:
         link1Name: HOSE_NOZZLE
         link2Name: HOSE_CONNECTOR
         position1: [ 0, 0, 0 ]
-        position2: [ 0.08, 0, 0 ]
+        position2: [ 0, 0, -0.08 ]
         connectAxis1: [ 1, 0, 0 ]
         connectAxis2: [ 1, 0, 0 ]
         jointCompliance: 1e-8
