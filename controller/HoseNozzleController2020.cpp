@@ -49,7 +49,7 @@ public:
         Affine3 T;
         //auto nodePath = hoseConnector->shape()->findNode("END", T);
         //hoseConnectorEndPosition = T.translation();
-        hoseConnectorEndPosition << 0.08, 0.0, 0.0;
+        hoseConnectorEndPosition << 0.0, 0.0, -0.08;
         lever = body->link("HOSE_NOZZLE_LEVER");
         reactionJoint1 = body->link("HOSE_NOZZLE_WATER_REACTION_JOINT1");
         reactionJoint2 = body->link("HOSE_NOZZLE_WATER_REACTION_JOINT2");
