@@ -20,8 +20,8 @@ links:
     uri: "HoseConnector.body"
     parent: HOSE_ROOT
     #rotation: [ [ 0, 1, 0, 90 ], [ 1, 0, 0, 90 ] ]
-    rotation: [ 0, 0, 1, 90 ]
-    translation: [ 4.127, -0.234, -0.738 ]
+    rotation: [ 1, 0, 0, 90 ]
+    translation: [ 4.127, -0.234, -0.338 ]
     jointType: free
   -
     type: SubBody
@@ -29,7 +29,7 @@ links:
     parent: BASE
     rotation: [ 0, 0, 1, 90 ]
     #translation: [ 0.07, -0.27, 0.81 ]
-    translation: [ 4.21, -0.1, -0.227 ]
+    translation: [ 4.21, -0.1, 0.173 ]
     jointType: free
     #jointType: fixed # for fire test
     jointIdOffset: 4
@@ -41,9 +41,9 @@ links:
         link1Name: HOSE_NOZZLE
         link2Name: HOSE_CONNECTOR
         position1: [ 0, 0, 0 ]
-        position2: [ 0.08, 0, 0 ]
+        position2: [ 0, 0, -0.08 ]
         connectAxis1: [ 1, 0, 0 ]
-        connectAxis2: [ 1, 0, 0 ]
+        connectAxis2: [ 0, 0, -1 ]
         jointCompliance: 1e-8
         jointSpookDamping: 0.33
         jointMotor: true
