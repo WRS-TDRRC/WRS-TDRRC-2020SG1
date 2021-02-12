@@ -84,7 +84,7 @@ links:
         position1: [ 0, 0, 0 ]
         position2: [ 0, 0, -0.08 ]
         connectAxis1: [ 1, 0, 0 ]
-        connectAxis2: [ 1, 0, 0 ]
+        connectAxis2: [ 0, 0, -1 ]
         jointCompliance: 1e-8
         jointSpookDamping: 0.33
         jointMotor: true
