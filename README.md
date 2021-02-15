@@ -35,8 +35,7 @@ If you have to install choreonoid now, please follow below commands:
     $ cd catkin_ws  
     $ catkin init  
     $ cd src  
-    $ git clone https://github.com/choreonoid/choreonoid.git  
-    $ cd choreonoid; git checkout f7449be9305514eb8d5f01b431751b93e0e29e78; git checkout -b WRS2020-Feb8; cd -  
+    $ git clone -b WRS2020 https://github.com/choreonoid/choreonoid.git  
     $ git clone https://github.com/choreonoid/choreonoid_ros.git  
     $ git clone https://github.com/choreonoid/choreonoid_ros_samples.git  
     $ git clone https://github.com/choreonoid/choreonoid_joy.git  
@@ -69,7 +68,7 @@ Please find field images and run scripts in the [wiki page](https://github.com/W
 If you have to install choreonoid now, please follow below commands:  
 
     $ cd ~  
-    $ git clone https://github.com/choreonoid/choreonoid.git  
+    $ git clone -b WRS2020 https://github.com/choreonoid/choreonoid.git  
     $ ~/choreonoid/misc/script/install-requisites-ubuntu-18.04.sh  
     $ sudo apt-get install qt5-default libqt5x11extras5-dev qt5-style-plugins  
     $ cd ~/choreonoid/ext  
