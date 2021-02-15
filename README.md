@@ -87,7 +87,7 @@ Or you are already using choreonoid, please follow below commands:
     $ cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_COMPETITION_PLUGIN=ON -DENABLE_CORBA=ON -DBUILD_CORBA_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DCMAKE_CXX_STANDARD=14  
     $ make -j8  
 
-Before run, you have to add "source /opt/Algoryx/AgX-2.23.0.4/setup_env.bash" at the end of ~/.bashrc , and reopen the terminal.  
+Before run, you have to add "source /opt/Algoryx/AgX-VERSION-NUMBER/setup_env.bash" at the end of ~/.bashrc , and reopen the terminal.  
 Please find further details(field images, run scripts, and some attentions related the stage gate rules) in the [wiki page](https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1/wiki).  
 
 ## The location of the simulation log files  
