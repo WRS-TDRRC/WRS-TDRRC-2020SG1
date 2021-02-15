@@ -16,8 +16,8 @@ We got information that the choreonoid developer does not have any plan to suppo
 There is information that the RTM version 1.1.2 and 1.2.0 were used with older choreonoid. But there is no information on whether the choreonoid developer will support.  
   
 ### ABOUT AGX Dynamics  
-We are consideringa suitable virsion of AGX.  
-Currently, Version 2.29.4.0 (the former one that we used was version 2.23.0.4) which was verified by the committee.  
+We are considering the suitable version of AGX.  
+Currently, Version 2.29.4.0 (the former version was 2.23.0.4) is recommended by the committee.  
   
 
 ## Requirements  
