@@ -43,8 +43,8 @@ If you have to install choreonoid now, please follow below commands:
     $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1 choreonoid/ext/WRS2020SG  
     $ choreonoid/misc/script/install-requisites-ubuntu-18.04.sh  
     $ cd ..    
-    $ catkin config --cmake-args -DBUILD_CHOREONOID_EXECUTABLE=OFF -DCMAKE_BUILD_TYPE=Release -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_COMPETITION_PLUGIN=ON -DENABLE_CORBA=ON -DBUILD_CORBA_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_WRS2018=ON -DUSE_PYTHON3=OFF  
-    $ catkin build   
+    $ catkin config --cmake-args -DBUILD_CHOREONOID_EXECUTABLE=OFF -DCMAKE_BUILD_TYPE=Release -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_COMPETITION_PLUGIN=ON -DENABLE_CORBA=ON -DBUILD_CORBA_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DCMAKE_CXX_STANDARD=14 -DUSE_PYTHON3=OFF  
+    $ catkin build  
 
 Before run, you have to add "source /opt/Algoryx/AgX-VERSION-NUMBER/setup_env.bash" at the end of ~/.bashrc , and reopen the terminal.  
 Please find field images and run scripts in the [wiki page](https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1/wiki).  
@@ -75,7 +75,7 @@ If you have to install choreonoid now, please follow below commands:
     $ cd ~/choreonoid/ext  
     $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1 WRS2020SG
     $ cd ~/choreonoid && mkdir build && cd build  
-    $ cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_COMPETITION_PLUGIN=ON -DENABLE_CORBA=ON -DBUILD_CORBA_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_WRS2018=ON  
+    $ cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_COMPETITION_PLUGIN=ON -DENABLE_CORBA=ON -DBUILD_CORBA_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DCMAKE_CXX_STANDARD=14  
     $ make -j8  
   
 Or you are already using choreonoid, please follow below commands:  
@@ -84,7 +84,7 @@ Or you are already using choreonoid, please follow below commands:
     $ cd ~/choreonoid/ext  
     $ git clone https://github.com/WRS-TDRRC/WRS-TDRRC-2020SG1 WRS2020SG
     $ cd ~/choreonoid/build  
-    $ cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_COMPETITION_PLUGIN=ON -DENABLE_CORBA=ON -DBUILD_CORBA_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DBUILD_WRS2018=ON  
+    $ cmake .. -DBUILD_AGX_DYNAMICS_PLUGIN=ON -DBUILD_AGX_BODYEXTENSION_PLUGIN=ON -DBUILD_COMPETITION_PLUGIN=ON -DENABLE_CORBA=ON -DBUILD_CORBA_PLUGIN=ON -DBUILD_MULTICOPTER_PLUGIN=ON -DBUILD_MULTICOPTER_SAMPLES=ON -DBUILD_SCENE_EFFECTS_PLUGIN=ON -DCMAKE_CXX_STANDARD=14  
     $ make -j8  
 
 Before run, you have to add "source /opt/Algoryx/AgX-2.23.0.4/setup_env.bash" at the end of ~/.bashrc , and reopen the terminal.  
