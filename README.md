@@ -34,7 +34,7 @@ TO GET MORE DETAILS, STRONGLY RECOMMEND TO VISIT THE FOLLOWING CHOREONOID SITE:
   2. Choreonoid  
     * Using choreonoid with ROS1:  
       [Building Choreonoid related packages(with ROS)](https://choreonoid.org/en/documents/latest/ros/build-choreonoid.html)  
-    * [Choreonoid Operation Manual](https://choreonoid.org/en/manuals/latest/index.html)
+    * [Choreonoid Operation Manual](https://choreonoid.org/en/manuals/latest/index.html)  
     * [Building Choreonoid](https://choreonoid.org/en/manuals/latest/install/build-ubuntu.html#development-version)  
   3. AGX  
     * [AGX for Choreonoid](https://choreonoid.org/en/manuals/latest/agxdynamics/index.html)  
