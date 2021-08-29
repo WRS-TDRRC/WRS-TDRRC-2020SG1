@@ -29,19 +29,19 @@ TO GET MORE DETAILS, STRONGLY RECOMMEND TO VISIT THE FOLLOWING CHOREONOID SITE:
 
 ## Requirements  
 
-  1. OS
+  1. OS  
     * Ubuntu 18.04 LTS  
-  2. Choreonoid
+  2. Choreonoid  
     * Using choreonoid with ROS1:  
       [Building Choreonoid related packages(with ROS)](https://choreonoid.org/en/documents/latest/ros/build-choreonoid.html)  
     * [Choreonoid Operation Manual](https://choreonoid.org/en/manuals/latest/index.html)
     * [Building Choreonoid](https://choreonoid.org/en/manuals/latest/install/build-ubuntu.html#development-version)  
-  3. AGX
+  3. AGX  
     * [AGX for Choreonoid](https://choreonoid.org/en/manuals/latest/agxdynamics/index.html)  
     * [Downloading AGX](https://www.algoryx.se/download/?id=2592)  
     * [Installation of AGX Dynamics(in the Choreonoid site)](https://translate.google.com/translate?sl=auto&tl=en&u=https://choreonoid.org/ja/documents/latest/agxdynamics/install/install-agx-ubuntu.html%23id5)  
     * [Installing AGX(in the Algoryx site)](https://www.algoryx.se/documentation/complete/agx/tags/latest/UserManual/source/installation.html#install-on-ubuntu-16-04)  
-  4. Other elementally packages for using choreonoid with ROS1
+  4. Other elementally packages for using choreonoid with ROS1  
     * [Installing ROS](https://choreonoid.org/en/documents/latest/ros/install-ros.html)  
 
 ## How to use this repository WITH ROS on Unbuntu 18.04  
