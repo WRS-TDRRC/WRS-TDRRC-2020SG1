@@ -129,4 +129,4 @@ You can a raw simulation log file under \~/catkin_ws/share/choreonoid-1.8/WRS202
 
       $ build/bin/choreonoid PATH_TO_ARCHIVE/ARCHIVE_NAME.cnoid  
 
-Edited: 20th Oct. 2021
+Edited: 20th Aug. 2021
